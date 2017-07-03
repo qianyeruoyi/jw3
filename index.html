@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/phone.css">
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/commen.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default" id="navbar-example">
+            <div class="container-fluid" id="top-nav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand"  id="logo" href="index.html"><img src="img/index/jx3-logo.png" alt=""></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav  navbar-right" id="top-nav2">
+                    <li><a href="#" data-toggle="modal" data-target="#login" id="nav-login">登录</a><p class="nav-line"></p></li>
+                    <li><a href="#" data-toggle="modal" data-target="#sign-in" id="nav-login">注册账号</a><p class="nav-line"></p></li>    
+                    <li><a href="#">账号充值</a><p class="nav-line"></p></li>    
+                    <li><a href="#">客服</a><p class="nav-line"></p></li>    
+                    <li><a href="#">安全</a><p class="nav-line"></p></li>    
+                    <li><a href="#">增值服务</a><p class="nav-line"></p></li>      
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <!-- 内容 -->
+        <div class="index-main">
+            <!-- 内容nav -->
+            <div class="container-fluid">
+                <ul class="row lovejs">
+                    <li class="col-md-1"></li>
+                    <li class="col-md-1 index-li1"><a href="index.html">首 页</a></li>
+                    <li class="col-md-1 index-li2"><a href="news.html">新闻资讯</a></li>
+                    <li class="col-md-1 index-li3"><a href="activity.html">活动中心</a></li>
+                    <li class="col-md-1 index-li4"><a href="psp.html">资料攻略</a></li>
+                    <li class="col-md-2 logo2"><a href="index.html"><img src="img/index/logo_2.png" alt=""></a></li>
+                    <li class="col-md-1 index-li5"><a href="download.html">游戏下载</a></li>
+                    <li class="col-md-1 index-li6"><a href="feature.html" target="_blank">游戏特色</a></li>
+                    <li class="col-md-1 index-li7"><a href="http://tr.jx3.xoyo.com/" target="_blank">图赏影音</a></li>
+                    <li class="col-md-1 index-li8"><a href="#">论 坛</a></li>
+                </ul>
+            </div>
+
+            <div class="luc"></div>
+
+            <!-- 左边二维码 -->
+            <div class="code"><img src="img/index/wx.png" alt=""></div>
+
+            <!-- 轮播 -->
+            <div id="ad" class="carousel slide" data-ride="carousel" data-interval="1500">
+                <div class="carousel-inner" id="slider">
+                    <div class="item active">
+                        <a href="#">
+                            <img src="img/slider/timg-(2)_02.png" />
+                        </a>
+                        <!-- <div class="carousel-caption">
+                            <h2>"People who love to eat are always the best people"</h2>
+                            <p>Julia Child</p>
+                        </div> -->
+                     </div>
+                     <div class="item">
+                        <a href="#">
+                            <img src="img/slider/timg-(9)_02.png" />
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="img/slider/timg-(12)_02.png" />
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="img/slider/244855562924_02.png" />
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="img/slider/timg-(1)_02.png" />
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="img/slider/62ccd842550afc0da0ef850f29fb4aac866ec404_02.png" />
+                        </a>
+                    </div>
+
+                 </div>
+                <a class="left carousel-control" href="#ad" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#ad" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+                <ol class="carousel-indicators" id="slider-ol">
+                    <li data-target="#ad" data-slide-to="0" class="active"></li>
+                    <li data-target="#ad" data-slide-to="1"></li>
+                    <li data-target="#ad" data-slide-to="2"></li>
+                    <li data-target="#ad" data-slide-to="3"></li>
+                    <li data-target="#ad" data-slide-to="4"></li>
+                    <li data-target="#ad" data-slide-to="5"></li>
+                </ol>
+            </div>
+                
+            <!-- 第一个三分部分 -->
+            <div class="container-fluid index-one">
+                <!-- 公告 -->
+                <div class="col-md-3 notice">
+                    <div class="not">
+                        <p class="ice">最新公告</p>
+                        <p class="ice-line"></p>
+                        <p class="not-line"></p>
+                        <ul>
+                            <li><span></span>[新闻] 十六强出阵 竞技大师赛6月4日战报</li>
+                            <li><span></span>[新闻]大师赛之路：大梦想家普拉斯赛后采访</li>
+                            <li><span></span>[新闻] 收书外卖线下赛 68毕业季全天候搞事</li>
+                            <li><span></span>[公告] 6月8日新服加开公告</li>
+                            <li><span></span>[公告] 6月5日更新公告</li>
+                            <li><span></span>[公告] 《剑网3》用户协议内容调整公告</li>
+                            <li><span></span>[活动] 充值送礼 特效背挂免费领</li>
+                            <li><span></span>[活动] 第二届剑网3竞技大师赛</li>
+                            <li><span></span>[活动] 充消福利 帐篷背挂免费领</li>
+                            <li><span></span>[活动] 直升90级&回归领时长</li>
+                            <li><span></span>[媒体] 大师赛每日精彩6.1比赛日集锦</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 门派选项卡 -->
+                <div class="col-md-6 school-tab">
+                    <div class="tab-bg container-fluid clear">
+                        <ul class="school-ul clear">
+                            <li class="bd">霸刀</li><p class="school-p school-p1"></p>
+                            <li class="cg">长歌</li><p class="school-p school-p2"></p>
+                            <li class="cy">苍云</li><p class="school-p school-p3"></p>
+                            <li class="gb">丐帮</li><p class="school-p school-p4"></p>
+                            <li class="cyy">纯阳</li><p class="school-p school-p5"></p>
+                            <li class="cj">藏剑</li><p class="school-p school-p6"></p>
+                            <li class="sl">少林</li><p class="school-p school-p7"></p>
+                            <li class="wd">五毒</li><p class="school-p school-p8"></p>
+                            <li class="tc">天策</li><p class="school-p school-p9"></p>
+                            <li class="tm">唐门</li><p class="school-p school-p10"></p>
+                            <li class="qx">七秀</li><p class="school-p school-p11"></p>
+                            <li class="mj">明教</li><p class="school-p school-p12"></p>
+                            <li class="wh">万花</li><p class="school-p school-p13"></p>
+                        </ul>
+                        <p class="school-line"></p>
+
+                        <ul class="school-show">
+                            <!-- 霸刀 -->
+                            <li class="school-bd"><img src="img/index/bg13.jpg" alt=""></li>
+                            <div class="show d-bd">
+                                <div class="mp"><img src="img/index/t13.gif" alt=""></div>
+                                <h4>三体切换，多种攻击手段的刀法大师</h4>
+                                <p class="show-text">远近结合的外功门派，双刀一鞘与腿法融合，配合独特的刀气封锁，拥有灵活多变适应性极强的攻击能力。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/13.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 长歌 -->
+                            <li class="school-cg"><img src="img/index/bg01.jpg" alt=""></li>
+                            <div class="show d-cg">
+                                <div class="mp"><img src="img/index/t01.gif" alt=""></div>
+                                <h4>琴音伴战意，辅助及机动性强</h4>
+                                <p class="show-text">内功远程门派，琴与剑相合，能操作音律与残影，拥有强大的辅助能力。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/01.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+                            
+                            <!-- 苍云 -->
+                            <li class="school-cy"><img src="img/index/bg02.jpg" alt=""></li>
+                            <div class="show d-cy">
+                                <div class="mp"><img src="img/index/t02.gif" alt=""></div>
+                                <h4>节奏沉稳，攻守一体，三种战斗姿态灵活切换</h4>
+                                <p class="show-text">高招架高防御的同时拥有独特的反击特性，飞盾弹射范围控制所向披靡。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/02.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 丐帮 -->
+                            <li class="school-gb"><img src="img/index/bg03.jpg" alt=""></li>
+                            <div class="show d-gb">
+                                <div class="mp"><img src="img/index/t03.gif" alt=""></div>
+                                <h4>单体伤害及控制能力极强，拥有较强的接近目标的能力</h4>
+                                <p class="show-text">通过掌系的一套连招，让敌人持续处于被控制状态。招式连贯，疾中有稳，棍掌交杂，大开大合。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/03.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 纯阳 -->
+                            <li class="school-cyy"><img src="img/index/bg04.jpg" alt=""></li>
+                            <div class="show d-cyy">
+                                <div class="mp"><img src="img/index/t04.gif" alt=""></div>
+                                <h4>控制强悍，招式灵活，爆发极强</h4>
+                                <p class="show-text">气剑二宗内外兼修，若将气场运用得当，无疑是最强的团队控场辅助。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                </div>
+                                <div><img src="img/index/04.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 藏剑 -->
+                            <li class="school-cj"><img src="img/index/bg05.jpg" alt=""></li>
+                            <div class="show d-cj">
+                                <div class="mp"><img src="img/index/t05.gif" alt=""></div>
+                                <h4>出色的身法移动和强悍的群体输出</h4>
+                                <p class="show-text">可快速切换内功，短兵与重兵交替使用，续航力强，身法敏捷，强悍的瞬间爆发极具威胁力。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/05.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 少林 -->
+                            <li class="school-sl"><img src="img/index/bg06.jpg" alt=""></li>
+                            <div class="show d-sl">
+                                <div class="mp"><img src="img/index/t06.gif" alt=""></div>
+                                <h4>高血高内防，内外兼修全面平衡</h4>
+                                <p class="show-text">拉怪擅长以单对多，"轮回诀"可起死回生，往往在团队中充当重要角色。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/06.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 五毒 -->
+                            <li class="school-wd"><img src="img/index/bg07.jpg" alt=""></li>
+                            <div class="show d-wd">
+                                <div class="mp"><img src="img/index/t07.gif" alt=""></div>
+                                <h4>操控蛊虫及灵兽，适应多种作战需求</h4>
+                                <p class="show-text">具备极强的输出或控制能力，亦能在团队中充当起坚实可靠的辅助角色，群体治疗能力十分强劲。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/07.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 天策 -->
+                            <li class="school-tc"><img src="img/index/bg08.jpg" alt=""></li>
+                            <div class="show d-tc">
+                                <div class="mp"><img src="img/index/t08.gif" alt=""></div>
+                                <h4>唯一能骑马作战的门派，高血高外防高机动</h4>
+                                <p class="show-text">冲杀敌阵亦可全身而退的角色，"啸如虎"让自己面临濒死也可全力一搏，是进攻防守较均衡的强势门派。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/08.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 唐门 -->
+                            <li class="school-tm"><img src="img/index/bg09.jpg" alt=""></li>
+                            <div class="show d-tm">
+                                <div class="mp"><img src="img/index/t09.gif" alt=""></div>
+                                <h4>神出鬼没的身法，诡异的机关和暗器</h4>
+                                <p class="show-text">最强悍的远程输出极具威胁力，无限续航的能力也使得唐门能够在不借助外力辅助的情况下独步江湖。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/09.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 七秀 -->
+                            <li class="school-qx"><img src="img/index/bg10.jpg" alt=""></li>
+                            <div class="show d-qx">
+                                <div class="mp"><img src="img/index/t10.gif" alt=""></div>
+                                <h4>舞中带剑影，群攻及解控能力强</h4>
+                                <p class="show-text">爆发覆盖时间长，治疗亦十分强大。灵动与迅捷是七秀的特色，乃受欢迎的团队多面手。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/10.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 明教 -->
+                            <li class="school-mj"><img src="img/index/bg11.jpg" alt=""></li>
+                            <div class="show d-mj">
+                                <div class="mp"><img src="img/index/t11.gif" alt=""></div>
+                                <h4>步法飘忽，攻击迅速，追击能力强</h4>
+                                <p class="show-text">隐匿自我行踪在野外作战中占尽绝对先手，可将敌人缴械的强力控制无疑令敌人闻风丧胆。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star"></span>
+                                </div>
+                                <div><img src="img/index/11.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                            <!-- 万花 -->
+                            <li class="school-wh"><img src="img/index/bg12.jpg" alt=""></li>
+                            <div class="show d-wh">
+                                <div class="mp"><img src="img/index/t12.gif" alt=""></div>
+                                <h4>点穴手法与医道兼修，令人进退两难</h4>
+                                <p class="show-text">"碧水滔天"能为友方恢复内力，拂穴手与截脉功夫延绵不断，治疗招式针对在单一目标时也占尽优势。</p>
+                                <div class="dif clear">
+                                    <span class="school-s1">上手难度：</span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                    <span class="star-b star"></span>
+                                </div>
+                                <div><img src="img/index/12.jpg" alt=""></div>
+                                <a href="#"><p class="school-more">查看更多></p></a>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 fun">
+                    <ul class="tongr">
+                        <li><img src="img/index/1234.jpg" alt=""></li>
+                        <li>
+                            <div id="tr1"><span></span>视频</div>
+                            <div id="tr2"><span></span>音乐</div>
+                        </li>
+                        <li>
+                            <div id="tr3"><span></span>cosplay</div>
+                            <div id="tr4"><span></span>美图</div>
+                        </li>
+                        <li>
+                            <div id="tr5"><span></span>周边</div>
+                            <div id="tr6"><span></span>同人站</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 第二个三块区域 -->
+            <div class="container-fluid index-two">
+                <!-- 游戏特色 -->
+                <div class="col-md-3 feat">
+                    <div>
+                        <ul>
+                            <li><span></span>一生不容错过的3D武侠扛鼎之作</li>
+                            <li><span></span>十三大门派齐聚江湖</li>
+                            <li><span></span>武侠轻功</li>
+                            <li><span></span>三大玩法</li>
+                            <li><span></span>江湖情缘</li>
+                            <li><a href="#"><p class="school-more">查看更多></p></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- cos同人图 -->
+                <div class="col-md-6 cos">
+                    <div class="not">
+                        <p class="ice">同人站</p>
+                        <p class="ice-line"></p>
+                        <p class="not-line"></p>
+                        <ul>
+                            <span><img src="img/index/cos (3).jpg" alt=""></span>
+                            <span><img src="img/index/cos (1).jpg" alt=""></span>
+                            <span><img src="img/index/cos (2).jpg" alt=""></span>
+                            <span><img src="img/index/cos (4).jpg" alt=""></span>
+                            <span><img src="img/index/cos (5).jpg" alt=""></span>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 轻功 -->
+                <div class="col-md-3 qing-kung">
+                    <div class="qing">
+                        <div><img src="img/index/gg03.jpg" alt=""></div>
+                        <div><img src="img/index/gg04.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>    <!-- 这是背景图的div -->
+
+        <!-- 第三个三分部分 -->
+        <div class="container-fluid index-there">
+            <!-- 直播站 -->
+            <div class="col-md-3 n-live">
+                <div class="not">
+                    <p class="ice">直播站</p>
+                    <p class="ice-line"></p>
+                    <p class="not-line"></p>
+                    <div><img src="img/index/zb01.jpg" alt=""></div>
+                    <div><img src="img/index/zb02.jpg" alt="" class="zhibo"></div>
+                </div>
+            </div>
+
+            <!-- 攻略 -->
+            <div class="col-md-6 gonglue">
+                <div class="not">
+                    <p class="ice">攻略站</p>
+                    <p class="ice-line"></p>
+                    <p class="not-line"></p>
+                    <ul class="juan">
+                        <li><span></span>【日月凌空】明教T循环及宏命令集合</li>
+                        <div class="xx1 xx">
+                            <img src="img/index/20170606105444743.png" alt="">
+                            <div class="clear">
+                                <p class="xx-p1">【日月凌空】明教T循环及宏命令集合</p>
+                                <p class="xx-p2"> &#160;本帖为日月凌空明教T各个循环及宏命令集合。</p>
+                            </div>
+                        </div>
+                        <li><span></span>【日月凌空】气纯单排指南</li>
+                        <div class="xx">
+                            <img src="img/index/20170426022503279.png" alt="">
+                            <div class="clear">
+                                <p class="xx-p1">【日月凌空】气纯单排指南</p>
+                                <p class="xx-p2"> &#160;本帖为日月凌空少林T各个循环及宏命令集合。</p>
+                            </div>
+                        </div>
+                        <li><span></span>【日月凌空】关于亢龙有悔</li>
+                        <div class="xx">
+                            <img src="img/index/20170428053735361.png" alt="">
+                            <div class="clear">
+                                <p class="xx-p1">【日月凌空】关于亢龙有悔</p>
+                                <p class="xx-p2"> &#160;本帖为日月凌空丐帮各个循环及宏命令集合。</p>
+                            </div>
+                        </div>
+                        <li><span></span>【日月凌空】七秀云裳心经基础教学</li>
+                        <div class="xx">
+                            <img src="img/index/20170525100219644.png" alt="">
+                            <div class="clear">
+                                <p class="xx-p1">【日月凌空】七秀云裳心经基础教学</p>
+                                <p class="xx-p2"> &#160;本帖为日月凌空七秀基础教学。</p>
+                            </div>
+                        </div>
+                        <li><span></span>【日月凌空】惊羽PVE大型攻略</li>
+                        <div class="xx">
+                            <img src="img/index/20170428050558457.png" alt="">
+                            <div class="clear">
+                                <p class="xx-p1">【日月凌空】惊羽PVE大型攻略</p>
+                                <p class="xx-p2"> &#160;本帖为日月凌空唐门PVE攻略。</p>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 赛事中心 -->
+            <div class="col-md-3 game">
+                <div class="not">
+                    <p class="ice">赛事中心</p>
+                    <p class="ice-line"></p>
+                    <p class="not-line"></p>
+                    <img src="img/index/tongren.jpg" alt="">
+                    <p class="game-p1">剑网3八周年COS大赛(感恩八年相伴)</p>
+                    <p class="game-p2">3.13-06.30</p>
+                    <p class="game-p3">进行中</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 底部背景图 -->
+        <div class="container-fluid bg-bottom"></div>
+
+        <!-- 底部 -->
+        <div class="footer">
+            <p>关于我们 | 服务协议 | 客服中心 | 联系我们 | 诚聘英才 | 网站导航</p>
+            <p>Copyright © 1999-2017 Kingsoft Corporation.All rights reserved.成都西山居世游科技有限公司 版权所有</p>
+            <p>增值电信业务经营许可证川B2-20130104　蜀ICP备14009198号-2 文网游备字（2011）C-PRG041号</p>
+            <p>网络文化经营许可证 川网文[2015]1923-059号　互联网出版许可证 新出网证<川>字027号</p>
+            <p>信息系统安全等级保护备案证书编号：510113990146　&#160;&#160;&#160;&#160;《网络游戏管理暂行办法》第九条内容 &#160;&#160;&#160;&#160;　《中华人民共和国网络安全法》</p>
+            <p><img src="img/index/logo1.png" alt="">
+            <img src="img/index/logo2.png" alt="">
+            <img src="img/index/logo3.png" alt="">
+            <img src="img/index/logo4.png" alt=""></p>
+            <p>婉拒18岁以下未成年用户进入游戏 健康游戏忠告：抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防受骗上当 适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+        </div>
+
+
+
+        <!-- 模态框 -->
+            <!-- 登录 -->
+            <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" id="head">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">金山通行证</h4>
+                        </div>
+                        <div class="modal-body" id="him">
+                            <p class="text-center him-p1">登录</p>
+                            <p class="him-p2"></p>
+                            <div>
+                                <div class="user container">
+                                    <li class="col-md-2 text-right zi">通行证：</li>
+                                    <li class="col-md-10 kuang"><input type="text" id="useri"></li>
+                                <p class="col-md-2"></p>
+                                <p class="user-p col-md-10" id="userp"></p>
+                                </div>
+                                <div class="pass container">
+                                    <li class="col-md-2 text-right zi">密码：</li>
+                                    <li class="col-md-10 kuang"><input type="password" id="passi"></li>
+                                    <p class="col-md-2"></p>
+                                    <p class="user-p col-md-10" id="passp"></p>
+                                </div>
+                                <div class="container">
+                                    <p class="col-md-2"></p>
+                                    <p class="user-p col-md-10" id="tishi">
+                                </div>
+
+                            </div>
+                        </div>
+                    <div class="modal-footer" id="foot">
+                        <button type="button" class="btn btn-primary" id="dl">点击登录</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    </div>
+                    <p class="zuixia"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 注册 -->
+
+
+
+
+    </body>
+</html>

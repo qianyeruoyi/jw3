@@ -1,0 +1,84 @@
+@media  screen and (max-width: 768px){
+    #logo>img{
+        width:100px;
+        padding-top:5px;
+    }
+    .lovejs{
+        text-align:center;
+    }
+    .lovejs li{
+        margin:0;
+    }
+    .luc{
+        height:100px;
+    }
+    .show>.show-text{
+        width:250px;
+    }
+    .index-one>.notice{
+        padding:8px 16px;
+    }
+    .notice,.feat,.n-live{
+        position:relative;
+        left:0;
+    }
+    .not{
+        width:100%;
+    }
+    .qing,.feat>div{
+        width:97%;
+    }
+    .fun,.qing-kung,.game{
+        position:relative;
+        right:0px;
+    }
+    .index-there>.gonglue{
+        padding:8px 0;
+    }
+    .xx div{
+        display:none;
+    }
+   .vity .huodong>.text{
+        padding-left:0;
+    }
+    .vity .act-p1{
+        margin-top:15px;
+    }
+
+}
+
+
+
+@media  screen and (max-width: 1000px){
+    #logo>img{
+        width:60px;
+    }
+    .lovejs{
+        text-align:center;
+    }
+    .lovejs li{
+        margin:0;
+    }
+    .luc{
+        height:100px;
+    }
+    .xx div{
+        display:none;
+    }
+
+}
+
+@media  screen and (max-width: 1300px){
+    .lovejs li{
+        margin:0;
+    }
+    .lovejs{
+        text-align:center;
+    }
+    .xx div{
+        display:none;
+    }
+
+
+}
+
